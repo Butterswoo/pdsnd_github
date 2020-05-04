@@ -157,6 +157,7 @@ def user_stats(df):
     print('-'*40)
 
 def raw_data(df):
+    """data input"""
     while True:    
         answer = input('Would you like to see individual customer data? ').lower()
         i = 0
