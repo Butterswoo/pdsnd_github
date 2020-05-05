@@ -134,7 +134,7 @@ def trip_duration_stats(df):
     print('-'*40)
     
 def user_stats(df):
-    """Displays statistics on bikeshare users."""
+    """Displays statistics on bikeshare users input."""
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
@@ -179,6 +179,7 @@ def raw_data(df):
                 
 
 def main():
+    """main function"""
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
